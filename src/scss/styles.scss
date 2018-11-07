@@ -1,19 +1,41 @@
 // Variable Overrides
-$theme-colors: (
-    "primary": #0000
-);
-$body-bg: #FFFFFF;
+
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
 
-body {
-    background-image: url("img_tree.png");
-    background-repeat: no-repeat;
+.jumbotron {
     background-size: cover;
+    background-image: url("../media/pirate-ship.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+.img-fluid {
+
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
 
-.nav-link {
-    a:hover {
+ }
+.navbar-nav
+{
+    a:hover{
         text-decoration: underline;
     }
+    a:active {
+        font-weight: bold;
+    }
 }
+
+.col-sm-3 {
+    border-right: 2px solid black;
+    .h4{
+        padding-right: 100px;
+    }
+}
+// .footer {
+//     width: 100%;
+//     background-color: red;
+
+// }
