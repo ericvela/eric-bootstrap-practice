@@ -2,40 +2,37 @@
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
-
+//jumbotron style - adds image, size w aspect ration
 .jumbotron {
     background-size: cover;
     background-image: url("../media/pirate-ship.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
-
-.img-fluid {
-
-    max-width: 100%;
-    height: auto;
-    margin-left: 100px;
-    margin-bottom: 10px;
+    background-position: center;
+    min-height: 350px;
+    text-align: center;
+    -webkit-text-fill-color: white;
 }
+//style for the author image, auto height to scale
 
- }
+ //navbar styles
 .navbar-nav
-{
+{   //underline when hover on navbar  link
     a:hover{
         text-decoration: underline;
-    }
-    a:active {
-        font-weight: bold;
-    }
+    }   //SHOUld make the active (current) link bold text
 }
-
-.col-sm-3 {
-    border-right: 2px solid black;
-    .h4{
-        padding-right: 100px;
+//add border to right side of left column (NEED TO REMOVE WHEN STACKED)
+.leftside {
+    border-right: 1px solid darkslategray;
     }
+//margin to bottom of carousel
+.carousel {
+    margin-bottom: 10px;
 }
-// .footer {
-//     width: 100%;
-//     background-color: red;
-
-// }
+//bg color, centered text on footer, ADD DIFF STYLES
+footer {
+    width: 100%;
+    margin-top: 20px;
+    background-color: lightslategrey;
+    text-align: center;
+ }
