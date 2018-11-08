@@ -20,9 +20,6 @@
     }   
 }
 //add border to right side of left column 
-.leftside {
-    border-right: 1px solid darkslategray;
-    }
 //margin to bottom of carousel
 .carousel {
     margin-bottom: 10px;
@@ -46,4 +43,11 @@ footer {
  }
 .disabled {
     cursor: not-allowed;
+}
+//Displays border on the right side of left column, only at larger sizes- NOT WHEN STACKED
+@media only screen and (min-width: 600px)
+{
+    .leftside {
+        border-right: 1px solid darkslategray;
+    }
 }
