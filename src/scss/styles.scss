@@ -12,16 +12,14 @@
     text-align: center;
     -webkit-text-fill-color: white;
 }
-//style for the author image, auto height to scale
-
  //navbar styles
 .navbar-nav
 {   //underline when hover on navbar  link
     a:hover{
         text-decoration: underline;
-    }   //SHOUld make the active (current) link bold text
+    }   
 }
-//add border to right side of left column (NEED TO REMOVE WHEN STACKED)
+//add border to right side of left column 
 .leftside {
     border-right: 1px solid darkslategray;
     }
@@ -29,10 +27,23 @@
 .carousel {
     margin-bottom: 10px;
 }
-//bg color, centered text on footer, ADD DIFF STYLES
+//bg color, centered text on footer, 
 footer {
     width: 100%;
     margin-top: 20px;
     background-color: lightslategrey;
     text-align: center;
  }
+ .display-4, h2 {
+     font-family: 'Gloria Hallelujah', cursive;
+     margin-bottom: 18px;
+ }
+ p, .navbar-brand, .nav-item, h4, footer {
+    font-family: 'Merriweather', serif;
+ }
+ .lead, h3, h5 {
+     font-family: 'Francois One', sans-serif;
+ }
+.disabled {
+    cursor: not-allowed;
+}

@@ -6335,3 +6335,16 @@ footer {
   margin-top: 20px;
   background-color: lightslategrey;
   text-align: center; }
+
+.display-4, h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-bottom: 18px; }
+
+p, .navbar-brand, .nav-item, h4, footer {
+  font-family: 'Merriweather', serif; }
+
+.lead, h3, h5 {
+  font-family: 'Francois One', sans-serif; }
+
+.disabled {
+  cursor: not-allowed; }
